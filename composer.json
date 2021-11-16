@@ -1,0 +1,31 @@
+{
+    "name": "redchamps/module-disable-form-key-validation",
+    "description": "Disable form key validation",
+    "type": "magento2-module",
+    "readme": "README.md",
+    "license": [
+        "OSL"
+    ],
+    "authors": [
+        {
+            "name": "RedChamps",
+            "email": "hello@redchamps.com",
+            "homepage": "https://redchamps.com/",
+            "role": "maintainer"
+        },
+        {
+            "name": "Ravinder",
+            "email": "rav@redchamps.com",
+            "homepage": "https://twitter.com/_iamRav",
+            "role": "maintainer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RedChamps\\DisableFormKeyValidation\\": ""
+        }
+    }
+}
